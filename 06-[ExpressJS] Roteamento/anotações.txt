@@ -1,0 +1,11 @@
+Nesse exemplo nosso servidor executa o roteamento correto para cada get HTTP para a rota correspondente que responde com a view correta.
+
+1-Quando um documento html utiliza um link( tag a ) ele realiza um http get para esse endpoint
+2-Se um servidor não estiver executando , não haverá mudança de página
+3-Normalmente, no VS Code, utilizamos a extensão live server que criar esse servidor automaticamente e por isso não percebemos de imediato a importância de um servidor executando
+4-Como criamos um servidor em node.js ele que devolve a view correta para cada requisição get
+5-O servidor necessita estar executando e assim ele devolve o que o front-end pede, nesse caso em localhost
+6-Foi criado um servidor que responde na porta 3000, se tentarmos acessar a rota ex(localhost:3000/about) ele funcionará corretamente,
+mas se tentarmos acessar o documento html em um caminho no nosso pc que não use o servidor ele não funcionará corretamente( ex: só abrir o arquivo html e acessar um link)
+ 
+Obs: No desenvolvimento, uma pasta com o nome 'views' geralmente recolhe arquivos html que serão apresentados
