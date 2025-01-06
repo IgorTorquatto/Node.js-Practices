@@ -1,0 +1,10 @@
+Nesse exemplo aprendemos o que são middlewares utilizando uma middleware muito comum que é o morgan
+porém podemos criar nossas próprias middlewares.
+
+Middlewares são funções que executam alguma lógica entre a resquest e o response
+
+1-Instalamos o morgan para usar seu middleware que a cada requisição mostra o log no nosso console do servidor
+2-Middlewares devem ser chamados antes das rotas que precisam ser utilizados, no código eles ficam antes da rota criada
+3-Podemos criar nossos middlewares inclusive para alterar requisições
+
+Obs: Para utilizar um middlewares as rotas devem ficar abaixo do seu uso, se a rota estiver acima ( no código ) da chamada do middleware o middleware não funcionará para aquela rota.
