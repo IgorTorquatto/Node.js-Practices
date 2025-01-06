@@ -1,0 +1,5 @@
+ExpressJS é um framework Node.js que nos permite criar servidores e adicionar funcionalidades de uma forma mais simples do que utilizando somente o node.js
+
+Para utilizar:
+
+npm install express 
