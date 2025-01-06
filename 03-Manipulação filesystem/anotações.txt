@@ -1,0 +1,1 @@
+Por padrão o node.js executa a maioria de suas funções em modo assíncrono, se quisermos que ele excute de forma síncrona devemos especificar a função correta se ela existir.

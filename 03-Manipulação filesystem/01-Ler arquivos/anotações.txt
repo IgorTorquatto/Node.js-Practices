@@ -1,0 +1,4 @@
+Com esse exemlo simples podemos entender a diferença entre um código síncrono e assíncrono.
+
+Utilizamos o módulo fs para podermos ler um arquivo csv, e o método que faz a leitura realiza isso de forma assíncrona.
+Por conta disso não interrompe a execução do código logo em seguida o que faz com que o console.log apareça primeiro
