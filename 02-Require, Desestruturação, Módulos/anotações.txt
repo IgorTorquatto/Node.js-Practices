@@ -1,0 +1,5 @@
+Em node.js nós temos acesso a vários módulos nativos, mas também podemos fazer a importações de módulos que criamos.
+
+Quando criamos um módulo necessitamos exportar o dado que queremos que seja importado ( diferente do php o qual importa todos os dados )
+
+O módulo importado deve ter seu nome dentro de aspas. ex: require('module_example')
