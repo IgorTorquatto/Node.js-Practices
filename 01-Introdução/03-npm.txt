@@ -1,0 +1,3 @@
+O npm é p gerenciador de pacotes padrão que vem ao instalar o nodejs
+
+Com ele podemos instalar novos módulos, novas bibliotecas nas nossas aplicações

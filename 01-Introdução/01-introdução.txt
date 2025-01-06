@@ -1,0 +1,8 @@
+O nodeJS não é nem um framework nem uma biblioteca, mas sim um ambiente que permite a execução de javascript
+Que pode ser usado para criar servidores
+
+Aprenderemos:
+-Utilizar nodeJS
+-Aprender o framework node js o expressjs
+-Criar um servidor
+-Comunicar com o MySQL com a criação de uma API

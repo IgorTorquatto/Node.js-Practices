@@ -1,0 +1,3 @@
+Para executar código javascript com nodejs podemos usar o comando node
+
+ex: node teste.js

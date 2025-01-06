@@ -1,0 +1,7 @@
+Com o nodejs:
+-deixamos de ter acesso ao DOM
+-Passamos a criar servidores
+-Gerir banco de dados
+-Ter acesso aos dados do SO
+
+Passamos a ter javascript fora do browser, em qualquer dispostivo que possa instalar o nodejs
