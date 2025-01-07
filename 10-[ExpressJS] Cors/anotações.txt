@@ -1,0 +1,3 @@
+Cors é um middleware que permite com que ao criar um api possamos utilizar ela no browser sem a apresentação de erros de segurança.
+
+O Cors adiciona uma camada de proteção.
