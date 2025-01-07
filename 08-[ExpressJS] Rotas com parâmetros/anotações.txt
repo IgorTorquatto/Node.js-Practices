@@ -1,0 +1,8 @@
+Urls podem vir com parâtros o qual podemos capturar da requisição e aplicar alguma lógica de código antes de devolver alguma resposta.
+
+ex:
+app.get('/aluno/:nome',(req,res)=>{
+    res.send(`<h1>Olá ${req.params.nome}</h1>`)
+});
+
+Nesse caso :nome é um parâmetro que temos acesso e podemos manipular.
