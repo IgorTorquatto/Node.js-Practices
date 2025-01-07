@@ -1,0 +1,14 @@
+Para utilizar o node.js com um banco de dados nós:
+
+1-Criamos um banco de dados no nosso SGBD de preferência
+2-Configuramos um novo usuário para o banco de dados com username e password
+3-Criamos nossas tabelas
+4-Inserimos os dados com o conteúdo presente em nodejs_tasks.sql
+
+
+Após termos um banco de dados pronto, precisamos de um módulo do node.js para se usar esse banco no lado do servidor 
+
+1-O módulo que instalamos com o npm é o `npm i mysql2`
+2-Fazemos o require do mysql2 para uma variável para utilizarmos
+3-Fazemos a conexão com o banco via javascript
+4-Podemos realizar nossas querys
